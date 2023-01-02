@@ -50,9 +50,19 @@ body {
 }
 
 .product-price {
+    flex-basis: 10%;
     color: grey;
     margin-right: 10px;
     font-size: 1em;
+}
+
+.product-post-discount {
+    font-weight: bolder;
+}
+
+.product-mrp {
+    font-weight: lighter;
+    text-decoration: line-through;
 }
 
 .product-quantity-cta {
