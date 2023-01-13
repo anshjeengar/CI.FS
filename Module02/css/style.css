@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sign-up-button,
+.start-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  margin: auto 10px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.active {
+  background: #ddd;
+}
+
+header,
+footer {
+  background-color: #fdfdfd;
+  display: flex;
+  border-radius: 5px;
+}
+header ul,
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding-left: 0px;
+}
+header ul li a,
+footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 10px;
+  color: navy;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  align-items: center;
+  box-shadow: 3px 3px 3px 2px rgba(221, 221, 221, 0.4);
+}
+header .logo {
+  display: flex;
+}
+header .logo img {
+  height: 42.222px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 3;
+}
+header nav .sign-up-button {
+  color: white;
+  background: green;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+}
+.banner .left-section,
+.banner .right-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner .left-section {
+  flex-basis: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 2;
+  margin-left: 10px;
+}
+.banner .left-section .banner-heading {
+  font-size: 3rem;
+}
+.banner .left-section p {
+  font-size: 2rem;
+}
+.banner .left-section .banner-btn {
+  font-size: 1.5rem;
+}
+.banner .left-section .banner-btn .start-btn {
+  color: whitesmoke;
+  background: orange;
+  font-size: 1.5rem;
+}
+.banner .right-section {
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+}
+.banner .right-section .banner-image {
+  max-height: 500px;
+}
+
+footer {
+  width: 100%;
+  box-shadow: 3px -3px 3px 2px rgba(170, 170, 170, 0.4);
+}
+footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

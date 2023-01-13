@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.sign-up-button,
+.start-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: auto 10px;
+    border-radius: 25px;
+    font-size: 1rem;
+    // font-display: block;
+}
+
+.active {
+    background: #ddd;
+}
+
+header,
+footer {
+    background-color: #fdfdfd;
+    display: flex;
+    border-radius: 5px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 10px;
+        padding-left: 0px;
+
+        li {
+            // display: flex;
+            // justify-content: space-around;
+            // align-items: center;
+
+            a {
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 5px;
+                margin: 0px 5px;
+                padding: 10px;
+                color: navy;
+            }
+        }
+    }
+}
+
+header {
+    position: sticky;
+    align-items: center;
+    box-shadow: 3px 3px 3px 2px rgba($color: #ddd, $alpha: 0.4);
+
+    .logo {
+        display: flex;
+        // align-items: stretch;
+
+        img {
+            height: 42.222px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 3;
+
+        .left-header,
+        .right-header {}
+
+        .sign-up-button {
+            color: white;
+            background: green;
+        }
+    }
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+
+    .left-section,
+    .right-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-section {
+        flex-basis: 70%;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        flex-grow: 2;
+        margin-left: 10px;
+
+        .banner-heading {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+
+            span {}
+        }
+
+        .banner-btn {
+            font-size: 1.5rem;
+
+            .start-btn {
+                color: whitesmoke;
+                background: orange;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .right-section {
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 30%;
+
+        .banner-image {
+            max-height: 500px;
+        }
+    }
+}
+
+footer {
+    // position: relative;
+    // bottom: -175px;
+    width: 100%;
+    box-shadow: 3px -3px 3px 2px rgba($color: #aaa, $alpha: 0.4);
+
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                display: inline-block;
+                margin: 0px 5px;
+                padding: 10px;
+            }
+        }
+    }
+}
