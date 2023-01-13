@@ -1,3 +1,8 @@
+$shadow-color: #ddd;
+$shadow-alpha: 0.4;
+$body-color: #fdfdfd;
+
+
 * {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,12 +23,12 @@ body {
 }
 
 .active {
-    background: #ddd;
+    background: $shadow-color;
 }
 
 header,
 footer {
-    background-color: #fdfdfd;
+    background-color: $body-color;
     display: flex;
     border-radius: 5px;
 
@@ -31,7 +36,7 @@ footer {
         display: flex;
         align-items: center;
         list-style: none;
-        margin: 10px;
+        margin: 10px 15px;
         padding-left: 0px;
 
         li {
@@ -54,7 +59,7 @@ footer {
 header {
     position: sticky;
     align-items: center;
-    box-shadow: 3px 3px 3px 2px rgba($color: #ddd, $alpha: 0.4);
+    box-shadow: 3px 3px 3px 2px $shadow-color;
 
     .logo {
         display: flex;
@@ -137,7 +142,7 @@ footer {
     // position: relative;
     // bottom: -175px;
     width: 100%;
-    box-shadow: 3px -3px 3px 2px rgba($color: #aaa, $alpha: 0.4);
+    box-shadow: 3px -3px 3px 2px rgba($shadow-color, $shadow-alpha);
 
     ul {
         li {

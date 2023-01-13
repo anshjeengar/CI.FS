@@ -31,7 +31,7 @@ footer ul {
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 10px;
+  margin: 10px 15px;
   padding-left: 0px;
 }
 header ul li a,
@@ -48,7 +48,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   align-items: center;
-  box-shadow: 3px 3px 3px 2px rgba(221, 221, 221, 0.4);
+  box-shadow: 3px 3px 3px 2px #ddd;
 }
 header .logo {
   display: flex;
@@ -110,7 +110,7 @@ header nav .sign-up-button {
 
 footer {
   width: 100%;
-  box-shadow: 3px -3px 3px 2px rgba(170, 170, 170, 0.4);
+  box-shadow: 3px -3px 3px 2px rgba(221, 221, 221, 0.4);
 }
 footer ul li a {
   text-decoration: none;
